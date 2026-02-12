@@ -11,4 +11,7 @@ else:
 	for i in arr:
 		if(i==sys.argv[1]):
 			count+=1
-	print(count)
+	if(count==0):
+		print("none")
+	else:
+		print(count)
